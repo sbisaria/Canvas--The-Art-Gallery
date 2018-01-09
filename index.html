@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas-The art gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<!-- Header Section Starts-->
+<header>
+	<nav class="navbar">
+	    <a href="#" class="toggle"><i class="fa fa-reorder"></i></a>
+	    <a href="index.html" class="brand"><img src="images/brand-img.png" alt="brand-img" /></a>
+	    <div class="right">
+		    <a href="catalog.html" class="link">Catalog</a>
+	      	<a href="courses.html" class="link">Courses</a>
+	      	<a href="events.html" class="link">Events</a>
+	      	<a href="products.html" class="link">Products</a>
+	    </div>
+	</nav>
+</header>
+<!-- Header Section Ends-->
+<article>
+	<div class="form">
+	<!-- Tab links -->
+	<ul class="tab-group">
+        <li class="tablinks active" id="signup"><a>Create account</a></li>
+        <li class="tablinks" id="login"><a>Sign in</a></li>
+    </ul>
+    <form id="signupView" class="tab-content">
+	  	<h1>Sign Up for Free</h1>
+	    <ul class="flex-outer">
+		    <li>
+		        <label for="first-name">First Name</label>
+		        <input type="text" id="first-name" placeholder="Enter your first name here">
+		    </li>
+	      	<li>
+	        	<label for="last-name">Last Name</label>
+	        	<input type="text" id="last-name" placeholder="Enter your last name here">
+	      	</li>
+	      	<li>
+	        	<label for="email">Email</label>
+	        	<input type="email" id="email" placeholder="Enter your e-mail here">
+	      	</li>
+	      	<li>
+		        <label for="phone">Password</label>
+	    	    <input type="password" id="phone" placeholder="Enter password">
+	      	</li>
+		    <li>
+		        <button type="submit">Get Started</button>
+		    </li>
+	    </ul>
+	  </form>
+	  <form id="loginView" class="tab-content">
+	  	<h1>Welcome Back!</h1>
+	    <ul class="flex-outer">
+		    <li>
+		        <label for="email">E-Mail</label>
+		        <input type="text" id="email" placeholder="Enter your e-mail">
+		    </li>
+	      	<li>
+	        	<label for="password">Password</label>
+	        	<input type="password" id="password" placeholder="Enter password">
+	      	</li>
+	      	<li>
+	        	<button type="submit">Submit</button>
+	      	</li>
+	    </ul>
+	  </form>
+</article>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

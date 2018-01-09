@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalog/Canvas-The art gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/catalog.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>	
+</head>
+<body>
+<!-- Header Section Starts-->
+<header>
+	<nav class="navbar">
+	    <a href="#" class="toggle"><i class="fa fa-reorder"></i></a>
+	    <a href="index.html" class="brand"><img src="images/brand-img.png" alt="brand-img" /></a>
+	    <div class="right">
+		    <a href="catalog.html" class="link active">Catalog</a>
+	      	<a href="courses.html" class="link">Courses</a>
+	      	<a href="events.html" class="link">Events</a>
+	      	<a href="products.html" class="link">Products</a>
+	    </div>
+	</nav>
+</header>
+<!-- Header Section Ends-->
+<div class="sort-row">
+	<button class="sort" data-sort="price">Sort by price</button>
+	<button class="sort asc" data-sort="type">Sort by type</button>
+</div>
+<aside class="sort-panel">
+	<!-- Filter Panel Starts -->
+	<nav class="main-navigation">
+		<div class="filters">
+			<h2>Filters</h2>
+		</div>
+		<button class="accordion active">Price</button>
+		<div class="panel">
+		  	<div classs="filter-box">
+		  		<input type="checkbox"><span>0 - 1000</span>
+		  	</div>
+		  	<div classs="filter-box">
+		  		<input type="checkbox"><span>1000 - 2000</span>
+		  	</div>
+		   	<div classs="filter-box">
+		  		<input type="checkbox"><span>2000 - 3000</span>
+		  	</div>
+		   	<div classs="filter-box">
+		  		<input type="checkbox"><span>4000 - 5000</span>
+		  	</div>
+		</div>
+		<button class="accordion active">Type</button>
+		<div class="panel">
+			<div classs="filter-box">
+		  		<input type="checkbox"><span>Oil</span>
+		  	</div>
+		  	<div classs="filter-box">
+		  		<input type="checkbox"><span>Pencil</span>
+		  	</div>
+		  	<div classs="filter-box">
+		  		<input type="checkbox"><span>Charcoal</span>
+		  	</div>
+		  	<div classs="filter-box">
+		  		<input type="checkbox"><span>Water</span>
+		  	</div>
+			</div>
+		</div>
+	</nav>
+	<!-- filter Panel Ends -->
+	<!-- Sketch Panel Starts -->
+	<div class="sketch-panel">
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/1.png" alt="Sunrise-img" />
+	  		</div>
+	  			<p>Sunrise in rice fields.</p>
+	  		<div class="buy-row">
+	  			<p>Rs. 4700</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/2.jpg" alt="Dawn-img" />
+	  		</div>
+	  		<div>
+	  			<p>Dawn scene in a valley.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 2000</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/3.jpg" alt="Rice-fields-img" />
+	  		</div>
+	  		<div>
+	  			<p>Sun shiny day in rice fields.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 3500</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/4.jpg" alt="Strokes-img" />
+	  		</div>
+	  		<div>
+	  			<p>Oil paint strokes</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 1000</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/5.jpg" alt="Bali-img" />
+	  		</div>
+	  		<div>
+	  			<p>Grasslands of bali.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 3200</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/6.jpg" alt="River-img" />
+	  		</div>
+	  		<div>
+	  			<p>River side safari.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 4400</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/7.jpg" alt="Grape-fields-img" />
+	  		</div>
+	  		<div>
+	  			<p>Water color sketch of grape fields.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 4600</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/8.jpg" alt="Gate-img" />
+	  		</div>
+	  		<div>
+	  			<p>Canvas of Golden gate.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 2200</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	  	<div class="sketch-content">
+	  		<div>
+	  			<img src="images/9.jpg" alt="jungle-img" />
+	  		</div>
+	  		<div>
+	  			<p>Morning walk near the jungle side.</p>
+	  		</div>
+	  		<div class="buy-row">
+	  			<p>Rs. 1500</p>
+	  			<button type="button">Buy</button>
+	  		</div>
+	  	</div>
+	</div>
+	<!-- Sketch Panel Ends -->
+</aside>
+<script type="text/javascript" src="js/catalog.js"></script>
+</body>
+</html>
