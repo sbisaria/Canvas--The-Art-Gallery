@@ -30,8 +30,3 @@ $cell.find('.js-expander').click(function() {
   $cell.not($thisCell).removeClass('is-inactive');
 
 });
-// navbar //
-$(".toggle").on("click", function() {
-  $(".toggle").parent().toggleClass('active');
-});
-
