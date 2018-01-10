@@ -21,7 +21,6 @@ h2{font-size:1.5em;}
 p {line-height: 20px;}
 button {
     width: 100%;
-    background: #009591;
     color: #ffffff;
     border:none;
     font-size: 2rem;
@@ -33,8 +32,10 @@ button {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-.navbar {
+.theme {
     background: #009591;
+}
+.navbar {
     padding: 0 30px;
 }
 .navbar .toggle, .navbar .brand {
@@ -47,13 +48,11 @@ button {
     padding: 1em;
     transition: .5s ease;
     text-decoration: none;
-    background: #009591;
     color: #fff;
     font-size: 18px;
 }
 .navbar .link:hover, .navbar .link:active, 
-.navbar .link:focus, .navbar .link:visited,
-.navbar .right a.active {
+.navbar .link:focus,.navbar .right a.active {
     background: #26343f;
     color:#fff;
 }
@@ -87,7 +86,6 @@ button {
     }
     .navbar .link {
         width: auto;
-        background: #009591;
         color:#fff;
       }
     .navbar .right {
@@ -112,7 +110,6 @@ button {
     }
     
     .navbar.active .toggle ,.navar .active .link{
-        background: #009591;
         color: white;
     }
     .navbar.active .right {
@@ -121,7 +118,7 @@ button {
         color: white;
     }
     .navbar .link:hover, .navbar .link:active, 
-    .navbar .link:focus, .navbar .link:visited,{
+    .navbar .link:focus{
         background: #26343f;
         color:#fff;
     }
@@ -132,7 +129,6 @@ button {
         content: "\2261";
     }
     .navbar.active .toggle,.navar .active .link  {
-        background: #009591;
         color: white;
     }
     .navbar.active .right {

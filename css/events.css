@@ -83,5 +83,10 @@ section .grid-box>div img{
 	}
 	section>div{
 		width: 100%;
+		padding: 10px;
+	}
+	.details>div >button{
+		width: 100%;
+		padding: 10px;
 	}
 }
