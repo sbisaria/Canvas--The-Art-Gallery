@@ -1,5 +1,4 @@
 ul.nav.nav-tabs{
-	display: flex;
 	justify-content: center;
 	margin-top: 1.5em;
 }
@@ -14,17 +13,11 @@ ul.nav.nav-tabs li {
     width: 300px;
     transition: .5s ease;
 }
-
 .nav-tabs li a{
 	text-decoration: none;
 	color: #fff;
 }
-
-form{
-	padding: 10px;
-}
 section{
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -36,7 +29,6 @@ section>div{
 	width: 60%;
 }
 .grid-box{
-	display: grid;
 	grid-template-columns: 2fr 4fr;
 	margin-bottom: 15px;
 	padding: 1em;
@@ -50,7 +42,6 @@ section .grid-box>div img{
 }
 .details{
 	color: #ffffff;
-	display: grid;
 	grid-template-columns: 1fr ;
 	grid-column-gap: 1em;
 	grid-row-gap: 1em;
@@ -64,7 +55,6 @@ section .grid-box>div img{
 }
 @media only screen and (max-width: 768px){
 	.grid-box{
-		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 1em;
 	}
@@ -73,11 +63,10 @@ section .grid-box>div img{
 		padding-left: 1em;
 	}
 	.details {
-		display: grid;
 	    grid-gap: 1em;
 	    grid-row-gap: 1em;
 	    justify-items: center;
-		}
+	}
 	.details > div {
 		padding-bottom:1em;
 	}
